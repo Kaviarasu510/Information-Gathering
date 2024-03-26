@@ -1,5 +1,3 @@
-![Screenshot 2024-03-26 090914](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/be0fa87d-9398-402e-b82c-ee395025a007)![Screenshot 2024-03-19 085934](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/967afd09-559b-4e6f-8a9b-e8e9802dce1b)# To perform information gathering techniques
-
 # AIM:
 
 To perform information gathering techniques using kali linux 
@@ -100,6 +98,14 @@ sudo traceroute -U www.gmail.com
 
 ![Screenshot 2024-03-26 091007](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/e7c5e7bb-a4ee-4348-b4a9-c3af8f50534f)
 
+#### ICMP Traceroute:
+sudo traceroute www.gmail.com
+
+### Output
+
+![Screenshot 2024-03-26 091053](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/3a341a42-0d3b-4655-97aa-219f369c6e54)
+
 ## Result
 
 THe information gathering techniques tools and procedure were identified successfully.
+
