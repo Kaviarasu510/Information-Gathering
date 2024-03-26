@@ -56,27 +56,35 @@ get further detail by using https://web.archive.org/
 # Webserver Fingerprinting
 
 ### Netcat:
+```
 sudo nc facebook.com 80
 GET / HTTP/1.1
 Host: facebook.com
+```
 
 ### output
 
 ![Screenshot 2024-03-26 085015](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/9deca507-48ef-4e4c-b6da-cceda42364e4)
 
 ### Nmap:    
+```
 nmap -p 21 -sv --script=banner ftp.vim.org
+```
 
 ### output
 ![Screenshot 2024-03-26 085239](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/ea6c0e22-7881-4433-b816-ed859e99c9cd)
 
 ### Whatweb
+```
 whatweb gmail.com
+```
 
 ![Screenshot 2024-03-26 085537](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/35d0cdf0-e991-418c-a0df-99ac3b85ec71)
 
 ### httprint
+```
 httprint -h 192.168.17.106 -s /usr/share/httprint/signatures.txt -p0 |more
+```
 
 ### Output
 
@@ -85,21 +93,27 @@ httprint -h 192.168.17.106 -s /usr/share/httprint/signatures.txt -p0 |more
 # Tracing The Location
 
 ### TCP Traceroute:
+```
 sudo traceroute -T www.gmail.com
+```
 
 ### Output
 
 ![Screenshot 2024-03-26 090914](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/68d8f647-7cf0-4793-bfc4-c9ae27b73f6a)
 
 ### UDP Traceroute:
+```
 sudo traceroute -U www.gmail.com
+```
 
 ### Output
 
 ![Screenshot 2024-03-26 091007](https://github.com/Kaviarasu510/Information-Gathering/assets/119392695/e7c5e7bb-a4ee-4348-b4a9-c3af8f50534f)
 
 #### ICMP Traceroute:
+```
 sudo traceroute www.gmail.com
+```
 
 ### Output
 
